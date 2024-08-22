@@ -1,5 +1,6 @@
 package kr.utila.rpg;
 
+import kr.utila.rpg.database.DBConnector;
 import kr.utila.rpg.libs.SimpleInventoryHolder;
 import kr.utila.rpg.systems.System;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -21,6 +22,7 @@ public final class Main extends JavaPlugin {
         instance = this;
 
         prepareLibs();
+        DBConnector.connect();
 
     }
 
