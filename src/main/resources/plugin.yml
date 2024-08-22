@@ -1,0 +1,4 @@
+name: UtilaRPGCore
+version: '${version}'
+main: kr.utila.rpg.Main
+api-version: 1.20
