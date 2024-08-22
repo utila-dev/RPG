@@ -3,6 +3,8 @@ package kr.utila.rpg;
 import kr.utila.rpg.database.DBConnector;
 import kr.utila.rpg.libs.SimpleInventoryHolder;
 import kr.utila.rpg.systems.System;
+import kr.utila.rpg.systems.stat.StatSystem;
+import kr.utila.rpg.systems.user.UserSystem;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.ArrayList;
@@ -24,6 +26,8 @@ public final class Main extends JavaPlugin {
         prepareLibs();
         DBConnector.connect();
 
+        loadPlugin(UserSystem.class);
+        loadPlugin(StatSystem.class);
     }
 
     @Override

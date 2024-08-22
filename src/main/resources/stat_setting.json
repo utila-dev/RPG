@@ -1,0 +1,18 @@
+{
+  "healthPerLevel": 25,
+  "pointPerLevel": 5,
+  "strDamage": 3,
+  "strDamagePercentage": 0.02,
+  "strHealth": 24,
+  "agiDamage": 4,
+  "agilityDamagePercentage": 0.03,
+  "agilitySpeedPercentage": 0.045,
+  "agilityCriticalChance": 0.028,
+  "hpDamage": 0.8,
+  "hpDamageToMonster": 0.4,
+  "hpHealth": 80,
+  "hpDefensePercentage": 0.005,
+  "intelligenceDamage": 2.2,
+  "intelligenceSkillDamagePercentage": 0.05,
+  "intelligenceHealth": 10
+}
