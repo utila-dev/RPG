@@ -1,6 +1,6 @@
 package kr.jonghyun.system.stat;
 
-import kr.jonghyun.system.ability.Ability;
+import kr.jonghyun.feat.ability.Ability;
 
 import java.util.HashMap;
 import java.util.Map;

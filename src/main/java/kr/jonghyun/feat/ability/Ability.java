@@ -1,4 +1,4 @@
-package kr.jonghyun.system.ability;
+package kr.jonghyun.feat.ability;
 
 public enum Ability {
 
