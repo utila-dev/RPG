@@ -1,0 +1,19 @@
+package kr.jonghyun.feat.ability;
+
+public enum Ability {
+
+    DAMAGE,
+    DAMAGE_PERCENTAGE,
+    HP,
+    HP_PERCENTAGE,
+    SPEED,
+    SPEED_PERCENTAGE,
+    SKILL_DAMAGE,
+    SKILL_DAMAGE_PERCENTAGE,
+    ATTACK_SPEED,
+    ATTACK_SPEED_PERCENTAGE,
+    CRITICAL_CHANCE,
+    CRITICAL_DAMAGE,
+    CRITICAL_DAMAGE_PERCENTAGE;
+
+}
