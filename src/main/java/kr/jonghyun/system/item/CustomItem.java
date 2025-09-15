@@ -10,6 +10,7 @@ public class CustomItem {
     private final String id;
     private String displayName;
     private List<String> lore;
+    private List<ItemFlag> itemFlags;
     private int customModelData;
     private Map<String, String> nbtTagMap;
 
