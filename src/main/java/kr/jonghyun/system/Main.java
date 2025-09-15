@@ -2,6 +2,7 @@ package kr.jonghyun.system;
 
 import kr.jonghyun.feat.lib.SimpleInventoryHolder;
 import kr.jonghyun.system.battle.BattleSystem;
+import kr.jonghyun.system.experience.ExperienceSystem;
 import kr.jonghyun.system.stat.StatSystem;
 import kr.jonghyun.system.user.UserSystem;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -26,6 +27,7 @@ public class Main extends JavaPlugin {
         registerSystem(new StatSystem());
         registerSystem(new UserSystem());
         registerSystem(new BattleSystem());
+        registerSystem(new ExperienceSystem());
         registerLibraries();
         for(System system : systems) {
             system.enableStorage();
