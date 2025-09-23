@@ -1,7 +1,7 @@
 package kr.jonghyun.system.stat;
 
 import kr.jonghyun.system.FileLoader;
-import kr.jonghyun.feat.ability.Ability;
+import kr.jonghyun.system.ability.Ability;
 import org.bukkit.configuration.file.YamlConfiguration;
 
 import java.io.File;

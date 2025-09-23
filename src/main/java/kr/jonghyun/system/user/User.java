@@ -1,7 +1,6 @@
 package kr.jonghyun.system.user;
 
-import kr.jonghyun.feat.ability.Ability;
-import kr.jonghyun.system.equipment.EquipmentPart;
+import kr.jonghyun.system.ability.Ability;
 import kr.jonghyun.system.stat.Stat;
 import kr.jonghyun.system.stat.StatSystem;
 import org.bukkit.entity.EntityType;
